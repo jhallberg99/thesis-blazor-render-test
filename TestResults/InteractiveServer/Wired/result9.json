@@ -1,0 +1,297 @@
+{
+  "testedRenderMode": "InteractiveServer",
+  "avgCPUBenchmarkIndex": 3229.1666666666665,
+  "throttling": {
+    "name": "Wired",
+    "settings": {
+      "up": 45000,
+      "down": 250000,
+      "rtt": 0
+    }
+  },
+  "initial_load_metrics": {
+    "first-contentful-paint": {
+      "id": "first-contentful-paint",
+      "title": "First Contentful Paint",
+      "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
+      "score": 0.55,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1502.641,
+      "numericUnit": "millisecond",
+      "displayValue": "1.5 s",
+      "scoringOptions": {
+        "p10": 934,
+        "median": 1600
+      }
+    },
+    "largest-contentful-paint": {
+      "id": "largest-contentful-paint",
+      "title": "Largest Contentful Paint",
+      "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
+      "score": 0.26,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 3360.973,
+      "numericUnit": "millisecond",
+      "displayValue": "3.4 s",
+      "scoringOptions": {
+        "p10": 1200,
+        "median": 2400
+      }
+    },
+    "speed-index": {
+      "id": "speed-index",
+      "title": "Speed Index",
+      "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
+      "score": 0.83,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1497,
+      "numericUnit": "millisecond",
+      "displayValue": "1.5 s",
+      "scoringOptions": {
+        "p10": 1311,
+        "median": 2300
+      }
+    },
+    "total-blocking-time": {
+      "id": "total-blocking-time",
+      "title": "Total Blocking Time",
+      "description": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more about the Total Blocking Time metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time/).",
+      "score": 0.61,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 288.7630000000004,
+      "numericUnit": "millisecond",
+      "displayValue": "290 ms",
+      "scoringOptions": {
+        "p10": 150,
+        "median": 350
+      }
+    },
+    "cumulative-layout-shift": {
+      "id": "cumulative-layout-shift",
+      "title": "Cumulative Layout Shift",
+      "description": "Cumulative Layout Shift measures the movement of visible elements within the viewport. [Learn more about the Cumulative Layout Shift metric](https://web.dev/articles/cls).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "unitless",
+      "displayValue": "0",
+      "scoringOptions": {
+        "p10": 0.1,
+        "median": 0.25
+      },
+      "details": {
+        "type": "debugdata",
+        "items": [
+          {
+            "cumulativeLayoutShiftMainFrame": 0,
+            "newEngineResult": {
+              "cumulativeLayoutShift": 0,
+              "cumulativeLayoutShiftMainFrame": 0
+            },
+            "newEngineResultDiffered": false
+          }
+        ]
+      }
+    }
+  },
+  "user_interaction_metrics": {
+    "total-blocking-time": {
+      "id": "total-blocking-time",
+      "title": "Total Blocking Time",
+      "description": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more about the Total Blocking Time metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time/).",
+      "score": 0,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 1875.994000000002,
+      "numericUnit": "millisecond",
+      "displayValue": "1,880 ms",
+      "scoringOptions": {
+        "p10": 150,
+        "median": 350
+      }
+    },
+    "interaction-to-next-paint": {
+      "id": "interaction-to-next-paint",
+      "title": "Interaction to Next Paint",
+      "description": "Interaction to Next Paint measures page responsiveness, how long it takes the page to visibly respond to user input. [Learn more about the Interaction to Next Paint metric](https://web.dev/articles/inp).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 40.476,
+      "numericUnit": "millisecond",
+      "displayValue": "40 ms"
+    },
+    "cumulative-layout-shift": {
+      "id": "cumulative-layout-shift",
+      "title": "Cumulative Layout Shift",
+      "description": "Cumulative Layout Shift measures the movement of visible elements within the viewport. [Learn more about the Cumulative Layout Shift metric](https://web.dev/articles/cls).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "unitless",
+      "displayValue": "0",
+      "scoringOptions": {
+        "p10": 0.1,
+        "median": 0.25
+      },
+      "details": {
+        "type": "debugdata",
+        "items": [
+          {
+            "cumulativeLayoutShiftMainFrame": 0,
+            "newEngineResult": {
+              "cumulativeLayoutShift": 0,
+              "cumulativeLayoutShiftMainFrame": 0
+            },
+            "newEngineResultDiffered": false
+          }
+        ]
+      }
+    }
+  },
+  "second_load_metrics": {
+    "first-contentful-paint": {
+      "id": "first-contentful-paint",
+      "title": "First Contentful Paint",
+      "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
+      "score": 0.9,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 924.183,
+      "numericUnit": "millisecond",
+      "displayValue": "0.9 s",
+      "scoringOptions": {
+        "p10": 934,
+        "median": 1600
+      }
+    },
+    "largest-contentful-paint": {
+      "id": "largest-contentful-paint",
+      "title": "Largest Contentful Paint",
+      "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
+      "score": 0.96,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 924.183,
+      "numericUnit": "millisecond",
+      "displayValue": "0.9 s",
+      "scoringOptions": {
+        "p10": 1200,
+        "median": 2400
+      }
+    },
+    "total-blocking-time": {
+      "id": "total-blocking-time",
+      "title": "Total Blocking Time",
+      "description": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more about the Total Blocking Time metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time/).",
+      "score": 0.61,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 287.0150000000003,
+      "numericUnit": "millisecond",
+      "displayValue": "290 ms",
+      "scoringOptions": {
+        "p10": 150,
+        "median": 350
+      }
+    },
+    "cumulative-layout-shift": {
+      "id": "cumulative-layout-shift",
+      "title": "Cumulative Layout Shift",
+      "description": "Cumulative Layout Shift measures the movement of visible elements within the viewport. [Learn more about the Cumulative Layout Shift metric](https://web.dev/articles/cls).",
+      "score": 1,
+      "scoreDisplayMode": "numeric",
+      "numericValue": 0,
+      "numericUnit": "unitless",
+      "displayValue": "0",
+      "scoringOptions": {
+        "p10": 0.1,
+        "median": 0.25
+      },
+      "details": {
+        "type": "debugdata",
+        "items": [
+          {
+            "cumulativeLayoutShiftMainFrame": 0,
+            "newEngineResult": {
+              "cumulativeLayoutShift": 0,
+              "cumulativeLayoutShiftMainFrame": 0
+            },
+            "newEngineResultDiffered": false
+          }
+        ]
+      }
+    }
+  },
+  "eventToDomUpdate_interactions": {
+    "sorting": [
+      {
+        "duration": 1012.8999999985099
+      },
+      {
+        "duration": 763.8000000044703
+      },
+      {
+        "duration": 701
+      },
+      {
+        "duration": 714
+      },
+      {
+        "duration": 629.5
+      }
+    ],
+    "expandCollaps": [
+      {
+        "duration": 168.40000000596046
+      },
+      {
+        "duration": 202.89999999850988
+      },
+      {
+        "duration": 168.5
+      },
+      {
+        "duration": 96.89999999850988
+      }
+    ],
+    "filtering": [
+      {
+        "duration": 155.39999999850988
+      },
+      {
+        "duration": 777.2999999970198
+      },
+      {
+        "duration": 81.09999999403954
+      },
+      {
+        "duration": 685.5
+      },
+      {
+        "duration": 91.60000000149012
+      },
+      {
+        "duration": 55.100000001490116
+      },
+      {
+        "duration": 62.899999998509884
+      },
+      {
+        "duration": 886.8999999985099
+      },
+      {
+        "duration": 81.10000000149012
+      }
+    ],
+    "dbFetch": [
+      {
+        "duration": 169.89999999850988
+      },
+      {
+        "duration": 1123.0999999940395
+      }
+    ]
+  },
+  "consoleLogs": [
+    "[2025-05-22T13:48:29.032Z] Information: Normalizing '_blazor' to '*InteractiveServerUrl*",
+    "[2025-05-22T13:48:29.281Z] Information: WebSocket connected to wss://jacob-hallberg-ex-jobb-hos-cgi-fyg4bsatf0enc4c3.northeurope-01.azurewebsites.net/_blazor?id=3dCNN8aM8T3vsx6ieNnFmQ.",
+    "[2025-05-22T13:49:07.029Z] Information: Normalizing '_blazor' to '*InteractiveServerUrl*",
+    "[2025-05-22T13:49:07.260Z] Information: WebSocket connected to wss://jacob-hallberg-ex-jobb-hos-cgi-fyg4bsatf0enc4c3.northeurope-01.azurewebsites.net/_blazor?id=aGdNVCqlx55PBD5m-nGuPQ."
+  ]
+}

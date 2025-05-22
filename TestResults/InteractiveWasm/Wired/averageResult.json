@@ -1,0 +1,34 @@
+{
+  "testedRenderMode": "InteractiveWasm",
+  "avgCPUBenchmarkIndex": 3210.4333333333334,
+  "throttling": {
+    "name": "Wired",
+    "settings": {
+      "up": 45000,
+      "down": 250000,
+      "rtt": 0
+    }
+  },
+  "initial_load_metrics": {
+    "avgFcpMs": 2671.129,
+    "avgLcpMs": 2671.129,
+    "avgSiMs": 3169,
+    "avgTbtMs": 1132.8410999991895,
+    "avgCls": 0
+  },
+  "user_interaction_metrics": {
+    "avgTtbMs": 1758.0940999999998,
+    "avgInpMs": 1025.2520000000002,
+    "avgCls": 0
+  },
+  "second_load_metrics": {
+    "avgFcpMs": 993.8903,
+    "avgLcpMs": 993.8903999999999
+  },
+  "eventToDomUpdateTimings": {
+    "avgSortingMs": 877.159999999922,
+    "avgExpandCollapsMs": 382.1199999998789,
+    "avgFilteringMs": 407.836249999929,
+    "avgDbFetchMs": 735.5550000004936
+  }
+}

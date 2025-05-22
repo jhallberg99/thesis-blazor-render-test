@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "scripts": {
+    "lighthouse-test": "tsx Tests/lighthouse-test.ts"
+  },
+  "dependencies": {
+    "@puppeteer/browsers": "^2.10.4",
+    "@sitespeed.io/throttle": "^5.0.1",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "lighthouse": "^12.6.0",
+    "puppeteer": "^24.8.0",
+    "tsx": "^4.19.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  }
+}

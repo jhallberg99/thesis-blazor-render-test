@@ -1,0 +1,34 @@
+{
+  "testedRenderMode": "InteractiveWasm",
+  "avgCPUBenchmarkIndex": 3201.2166666666667,
+  "throttling": {
+    "name": "Wifi",
+    "settings": {
+      "up": 20000,
+      "down": 40000,
+      "rtt": 30
+    }
+  },
+  "initial_load_metrics": {
+    "avgFcpMs": 4458.720200000001,
+    "avgLcpMs": 4458.720200000001,
+    "avgSiMs": 4971.5,
+    "avgTbtMs": 1130.4202,
+    "avgCls": 0
+  },
+  "user_interaction_metrics": {
+    "avgTtbMs": 1738.3186,
+    "avgInpMs": 1018.3351,
+    "avgCls": 0
+  },
+  "second_load_metrics": {
+    "avgFcpMs": 1100.4562,
+    "avgLcpMs": 1100.4562
+  },
+  "eventToDomUpdateTimings": {
+    "avgSortingMs": 867.6875000001804,
+    "avgExpandCollapsMs": 383.3799999993993,
+    "avgFilteringMs": 405.2875000000495,
+    "avgDbFetchMs": 848.0149999996298
+  }
+}

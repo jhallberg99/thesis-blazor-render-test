@@ -1,0 +1,34 @@
+{
+  "testedRenderMode": "InteractiveAuto",
+  "avgCPUBenchmarkIndex": 3224.95,
+  "throttling": {
+    "name": "4G",
+    "settings": {
+      "up": 9000,
+      "down": 9000,
+      "rtt": 85
+    }
+  },
+  "initial_load_metrics": {
+    "avgFcpMs": 2087.2424,
+    "avgLcpMs": 7754.708100000001,
+    "avgSiMs": 2202,
+    "avgTbtMs": 286.0888999992371,
+    "avgCls": 0
+  },
+  "user_interaction_metrics": {
+    "avgTtbMs": 1914.488300000001,
+    "avgInpMs": 38.1042,
+    "avgCls": 0.002904827323141673
+  },
+  "second_load_metrics": {
+    "avgFcpMs": 1624.1475999999998,
+    "avgLcpMs": 1624.1475999999998
+  },
+  "eventToDomUpdateTimings": {
+    "avgSortingMs": 2771.81599999927,
+    "avgExpandCollapsMs": 369.50499999960886,
+    "avgFilteringMs": 1850.5211111109704,
+    "avgDbFetchMs": 1865.6650000005961
+  }
+}
